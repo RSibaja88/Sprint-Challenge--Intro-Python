@@ -9,8 +9,8 @@ class GroundVehicle():
 
     # TODO
 
-def drive(self):
-    return "vroooom"
+    def drive(self):
+        return "vroooom"
 
 # Subclass Motorcycle from GroundVehicle.
 #
@@ -21,11 +21,11 @@ def drive(self):
 
 # TODO
 class Motorcycle(GroundVehicle):
-    def__init__(self):
+    def __init__(self):
         super().__init__(2)
 
-        def drive(self):
-            return "BRAAAP!!"
+    def drive(self):
+        return "BRAAAP!"
 
 
 vehicles = [
@@ -39,5 +39,5 @@ vehicles = [
 # Go through the vehicles list and print the result of calling drive() on each.
 
 # TODO
-for v in vehicles:
-    print(v.drive())
+for veh in vehicles:
+    print(veh.drive())
